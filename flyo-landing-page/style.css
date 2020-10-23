@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*,
+::before,
+::after
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+ .list
+ {
+     display: flex;
+     list-style: none;
+     flex-wrap:wrap;
+     justify-content:flex-end ;  
+    margin: 0;  
+    transform: translateY(-30px);
+ }
+ .list-item
+ {
+     margin-right: 1.4rem;
+     padding: 0 1rem;
+ }
+ .intro-image
+ {
+    display: grid;
+    grid-template-columns:48.5%;
+    justify-content: center;
+ }
+ .intro-caption-body
+ {
+     padding:1rem 7rem;
+     text-align: center;
+ }
+ .intro-image img{
+     width:90%;
+     justify-self: center;
+     
+ }
+ .intro-caption
+ {
+     text-align: center;
+     font-size: 2.0rem;
+     
+ }
+ .get_started
+ {
+   
+     text-align: center;
+     padding: 2rem 5rem 5rem 5rem;
+ }
+
+ .get_started button{
+     cursor: pointer;
+    color:white; 
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    height:2.6rem;
+    background:linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+ }
+
+ .files
+ {
+     display:grid;
+     width:100%;
+     grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+     grid-template-rows: 12rem 12rem;
+     grid-gap:3rem 0;
+     justify-content: center;
+ }
+ .accessfiles,.security,.real-time,.store-any-type
+ {
+     justify-self: center;
+    
+ }
+ .icon-image
+ {
+    padding-left: 38%;
+    margin-bottom: 2rem;
+ }
+ .header-icon
+ {
+     font-size: 1.1rem;
+     text-align: center;
+     padding: .4rem;
+     
+ }
+
+ .header-logo
+ {
+     
+     padding:2.6rem;
+ }
+ .icon-body
+ {
+     text-align: center;
+    
+ }
+ .productive
+ {
+     display: grid;
+     width: 100%;
+     grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
+    grid-template-rows: 20rem;
+    padding-top: 2rem;
+    margin-top: 4rem;
+
+ }
+ .productive-image
+ {
+     padding: 0 0 0 5rem;
+ }
+ .productive-image img
+ {
+    margin-left:3.5rem;
+    width: 75%;
+ }
+ .prod-header{
+     padding: 2rem 0 1rem 0;
+    font-size:2rem;
+ }
+ .production-body div
+ {
+     padding:0.6rem;
+ }
+ .production-body
+ {
+     padding-left: 8rem;
+ }
+ .prod-link
+ {
+     color:hsl(198, 60%, 50%);
+     padding-left: 0.6rem;
+     text-decoration: underline;
+ }
+ .prod-link img{
+     
+     width: 12px;
+     margin-left: .2rem;
+ }
+ .card
+ {
+    display:grid;
+    width:100%;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-template-rows: 12rem;
+    grid-gap:5rem 0rem;
+    justify-items: center;
+    margin-top: 9.9rem;
+   padding: 0 8rem;
+   margin-bottom: 14rem;
+ }
+ .caption img{
+     border-radius:50%;
+     position: absolute;
+     width: 37px;
+ }
+ .card-container
+ {
+    width:86%;
+    
+
+ }
+ .card-body
+ {
+    border-radius: 12px;
+    padding:1rem 1rem;
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 2px 1px 0  white;
+ }
+ .caption{
+     padding: 2rem .3rem;
+ }
+ .id-details
+ {
+     padding:0rem 3rem;
+ }
+.id-details .designation
+{
+    font-size: .6rem;
+} 
+.subscribe
+{
+
+    display: grid;
+    width:100%;
+    grid-template-columns:100%;
+    justify-content: center;
+    padding: 2rem 0;
+    
+     border-radius: 8px;
+     background-color:hsl(219, 30%, 18%);
+    position: absolute;
+    top:-7rem;
+}
+.main-subscribe
+{
+    position: relative;
+    width:60%;
+    margin-left: 20%;
+}
+.subscribe-content
+{
+    text-align:center;
+    padding: 1.2rem;
+}
+.subscribe-body
+{
+
+text-align: center;
+padding:  1rem 6rem;
+}
+.subscribe-box
+{
+    text-align: center;
+
+}
+.subscribe-box >button
+{
+    color:white;
+    background:linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+.subscribe-box input{
+    width:45%;
+    height: 2rem;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+}
+.subscribe-box button{
+    width:20%;
+    height: 2rem;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+}
+
+.footer
+{
+    display: grid;
+    background:  hsl(216, 53%, 9%);
+    grid-template-columns: 600px 1fr 1fr 1fr 1fr;
+  
+    grid-gap:0rem 1rem;
+    justify-items: center;
+    margin-top: 4.9rem;
+    padding: 10rem 0 0rem 0;
+}
+.footer .footer-col-1
+{
+    height: 45vh;
+    padding:2rem 0 2rem 10rem;
+}
+.footer-logo
+{
+    padding: 1rem;
+}
+.footer-col-2,.footer-col-3,.footer-col-4,.footer-col-5
+{
+    padding: 7.4rem 0 0 0 ;
+    list-style: none;
+}
+.footer-col-3 ul,.footer-col-4 ul
+{
+    list-style: none;
+}
