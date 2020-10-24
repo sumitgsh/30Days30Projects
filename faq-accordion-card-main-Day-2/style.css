@@ -1,0 +1,109 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+
+html
+{
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+
+}
+
+body{
+   background-image:linear-gradient(to bottom,hsl(273, 75%, 66%),hsl(240, 73%, 65%));   
+   height: 100vh;
+   color:hsl(237, 12%, 33%);
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+}
+
+.card
+{
+    display: flex;
+    width: 65%;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 16px;
+    overflow-x: hidden ;
+    height: 65vh;
+   
+}
+.card-header
+{
+width: 70%;
+position: relative;
+}
+
+.card-header svg
+{
+
+  position: absolute;
+  top:80px;
+  transform: translateX(-100px);
+}
+
+.card-body
+{
+ width: 100%;   
+font-size: 14px;
+
+}
+.card-item
+{
+    
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: hsl(240, 6%, 50%);
+}
+
+.card-link
+{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.answer
+{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+  
+}
+
+.card-item:target .answer
+{
+    max-height: 14rem;
+}
+.card-item:target  #icon
+{
+    transform: rotateX(-180deg);
+}
+
+.card-item:target a
+{
+    font-weight: 900;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
