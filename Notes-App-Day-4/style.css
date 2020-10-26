@@ -1,0 +1,65 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color:rgb(199,202,213);
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+.notesInp
+{
+    padding: 0.5rem 0.5rem;
+}
+
+.notesList
+{
+        padding: 0.5rem 0.5rem;
+        width: 40rem;
+        font-size: 2rem;
+
+}
+.notesList > p
+{
+    font-size: 1.5rem;
+}
+#textInp
+{
+    width: 40rem;
+    height: 20rem;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+button{
+    padding: 10px;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+#note
+{
+    padding: .6rem;
+
+}
