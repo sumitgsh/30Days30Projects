@@ -60,6 +60,10 @@ button{
 
 #note
 {
-    padding: .6rem;
+    padding: .6rem;    
+}
 
+p
+{
+    cursor: pointer;
 }
