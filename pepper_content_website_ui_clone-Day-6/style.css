@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+:root{
+    --dark-color:rgb(22,34,79);
+}
+html,body{
+  height:100%;
+  width:100%;
+  font-family: 'Poppins',sans-serif;
+  color:#222;
+}
+nav
+{
+box-shadow: 2px 6px  28px rgba(22,34,79,.5);
+}
+.nav-link a:visited
+{
+    color:rgb(67,67,67) !important;
+}
+.navbar-brand
+{
+   padding: .2rem .8rem;
+    font-style: oblique;
+}
+
+.navbar-brand img
+{
+    
+    width:40px;
+    height: 45%
+}
+.left
+{
+    text-transform: uppercase;
+    
+}
+.carousel-inner img
+{
+  width: 100%;
+  height: 100%;
+}
+.drop-market 
+{
+
+background-color: var(--dark-color);
+color:#fff;
+height:2.7rem;
+width:7.6rem
+}
+.welcome-header
+{
+font-size:5rem;
+margin-top: 5rem;
+font-family: 'Special Elite', sans-serif;
+}
+
+.welcome-link
+{
+    border: 2px solid #fff;
+    background-color: var(--dark-color);
+    color:#fff;
+
+    font-size:100%;
+    padding: .5rem 1rem;
+    transform: translateY(-143px);
+    
+}
+@media (max-width: 576px) {
+
+    .welcome-header 
+    {
+    font-size:3rem;
+    }  
+    .welcome-link
+    {
+
+        width: 60%!important;
+     
+    } 
+    
+    .threecolumn h1{
+        font-size: 2rem;
+    }
+    .clients-header
+    {
+        font-size: 1.4rem;
+    }
+    .testimonial_text
+    {
+        font-size: 1.5rem;
+    }
+}
+
+.threecolumn h1
+{
+color:var(--dark-color);
+}
+
+
+.welcome 
+{
+    color:#fff;
+    height: 93vh;
+    background-image: linear-gradient(to right bottom, rgb(60,70,107), rgba(22,34,79, 0.8)), url(/img/logo.png);
+    background-size:cover;
+    background-position: top;
+        /*Polygon(x y,x y,x y)*/
+    clip-path: polygon(0 0, 100% 0%, 100% 350px, 0 100%);
+
+}
+.display-4
+{
+    padding:6rem;
+}
+.content
+{
+    padding: 1.5rem 3rem;
+}
+.content img{
+    padding:1.4rem;
+}
+.clients-header
+{
+    text-transform: uppercase;
+    padding: 2rem;
+
+}
+.clients img
+{
+    background-size: cover;
+    width: 100%;
+    height: 120%;
+    padding: .5rem 0rem;
+    
+}
+.client-content
+{
+    padding: 6rem 0rem;
+}
+.testimonial
+{
+background-color: var(--dark-color);
+color: #fff;
+padding: 3rem;
+}
+.testimonial img
+{
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+   
+}
+.testimonial_container
+{
+    background-color: rgb(60,70,107);
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding:3rem;
+
+}
+.test_header
+{
+    text-decoration: underline;
+    text-underline-position:under;
+    text-underline-offset:inherit;
+    padding:1rem 1rem 3rem 1rem;
+}
+.testimonial_text
+{
+    padding:.6rem;
+}
+.contact-form-header
+{
+    background-color: var(--dark-color);   
+    color: #fff;
+}
+.contact-form
+{
+    background-color: var(--dark-color);
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.dropdown-toggle::after
+{
+    float: right;
+    margin-top: .6rem;
+}
+.contact_brand
+{
+    float:left;
+}
+.footer
+{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.footer a
+{
+    background: white;
+    border-radius: 20px;
+}
+
+/* Media queries */
