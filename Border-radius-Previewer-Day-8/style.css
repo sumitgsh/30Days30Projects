@@ -1,0 +1,73 @@
+*
+{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+html,body{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background-color: rgb(61,61,61);
+    color: black
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 2rem;
+}
+.main
+{
+width: 50rem;
+height: 35rem;
+
+}
+.csscode
+{
+    padding: 1rem;
+    
+}
+.csscode > p
+{
+    color: black;
+}
+.text
+{
+    padding:3rem;
+    height:30rem;
+    background-color:rgb(255,255,255);
+
+}
+.sizes
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.inpVal
+{
+    padding: 1rem;
+    text-align: center;
+    background-color:rgb(57,57,57);
+    margin: .5rem;
+}
+input[type="number"]
+{
+    padding: 1rem;
+    width: 50%;
+    height: 3rem;
+}
+label{
+    font-size: 1.3rem;
+    color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
