@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+}
+
+.insert
+{
+    display:flex;
+    font-size:2rem;
+}
+
+.message
+{
+    font-size: 4rem;
+    padding: 1rem 3rem;
+}
+
+label{
+    padding: 0.8rem;
+
+}
+.key
+{
+    padding: 2rem;
+    border: solid 1px grey;
+    margin: 1rem;
+    text-align: center;
+    width: 20rem;
+}
+
+p{
+    background-color:rgb(158,158,158);
+    padding: 0.8rem;
+    border-radius: 16px;
+   margin: 1.8rem 0;
+}
