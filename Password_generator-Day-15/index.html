@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PassWord Generator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	
+</head>
+<body>
+    <header class="header">
+	    <div class="header-text" style="background-color:black; color:white;">
+            <h1 style="text-align: center;font-size: 3rem;">PassWord Strength Checke<span class="last-letter">r</span></h1>
+	    </div>
+    </header>
+	<div class="content shadow">
+
+        <div class="message"><span id="category">Select the Options from the Below choice.</span></div>
+            <div class="container text-center">
+
+                     <span><input type="text"  id="psd"  name="text"></span>
+                    <span><button  type="button" id="check"><span style="font-size: 18px;"><b>Check</b></span></button></span>
+            </div>
+
+	    <div  class="check_container">
+            
+            <div class="checkbox-round">
+	            <input id="Lcase" type="checkbox"  name="LowerCase"><b> <span class="text"> Include Lower Case</span></b>
+            </div>    
+            <div class="checkbox-round">
+                 <input  id="Ucase" type="checkbox"  name="UpperCase"><b> <span class="text"> Include Upper Case</span></b>
+            </div>
+            <div class="checkbox-round">
+                <input  id="Num" type="checkbox"  name="Numbers"><b>  <span class="text">Include Numbers</span></b>
+             </div>
+            <div class="checkbox-round">
+                <input  id="Char" type="checkbox"  name="Characters"><b>  <span class="text"> Include Special Character</span></b>
+     	    </div>
+            
+	    </div>
+       <div class="guesses hidden" id="guess_main">
+           <h4>Guesses Required to crack the Password:<span id="guess_val"></span></h4>
+       </div>
+        <div id="slider"></div>
+    </div>
+
+	<!--zxcvbn library-->
+    <script type="text/javascript" src="zxcvbn.js">
+    </script>
+    <script type="text/javascript" src="psg.js"></script>
+    <script>
+       
+    function myFunction(){
+        var e = event || window.event;  
+        var key = e.keyCode || e.which;                              
+        if (((key>=48)&&(key<=57))||(key==8)||(key == 46)) { //allow backspace //and delete
+                if (e.preventDefault) e.preventDefault(); 
+                e.returnValue = false; 
+        }
+      }
+      </script>
+    
+</body>
+</html>

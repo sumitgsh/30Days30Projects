@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+}
+body{
+    height:90vh;
+    width: 100vw;
+    position: relative;
+}
+h1
+{
+   
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+h1::first-letter
+{
+    font-size: 4rem;
+}
+.last-letter
+{
+    
+    font-size:4rem;
+}
+.header-text
+{
+    border-radius: 30px;
+}
+header{
+    padding: 1rem 1rem;
+}
+.message
+{
+    position: absolute;
+    left:9.2rem;
+    font-size: 1.1rem;
+    color:red;
+}
+.content{
+    width: 50rem;
+    height: 25rem;
+    position: relative;
+    top:4rem;
+    left:18rem;
+    padding: 1rem 0;
+    background-color:white;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+}
+.text-center
+{
+    display: inline-block;
+    padding: 1.5rem 1rem;
+
+}
+.container
+{
+    background-color: none;
+}
+input[type=text]
+{
+    width: 25rem;
+    
+    height: 2.5rem;
+    border-radius: 0.7rem;
+    outline: none;
+    border:solid 0.2rem rgba(34, 177, 34,0.6);
+}
+ input[type=text]:hover
+{
+    border:2px solid black;
+
+}   
+
+/* input[type=text]:hover
+{
+    background-color: red;//Apply on password Validation
+}   */
+
+div #slider{
+    all: unset;
+    width: 100%;
+    height: 7px;
+    position: absolute;
+    top: 98.3%;
+    left: 0;
+    border-radius:4px;
+    
+  }
+
+#check
+{
+    width:7.5rem;
+    height: 2.5rem;
+    outline: none;
+    border-radius: 0.7rem;
+    color:white;
+    background-color:black; 
+    text-transform: uppercase;
+    
+}
+
+#check:hover
+{
+ transform: translateX(2px);   
+}
+.check_container
+{
+ display: flex;  
+ flex-direction: column; 
+ overflow-x: hidden;
+
+}
+.checkbox-round
+{
+  width: 70%; 
+  padding: 1rem 0px 0px 10rem;
+
+}
+.text{
+
+    font-size: 1.4rem;
+    padding: 0 0.6rem;
+    
+}
+
+input[type=checkbox]
+{
+    width: 1rem;
+    height: 1rem;
+    background-color:white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.2rem solid rgba(34, 177, 34,0.6);
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.guesses
+{
+    margin: 1rem 0rem;
+    width: 70%;
+    color:red;
+   margin-left: 10rem;
+   
+}
+.hidden{
+    display: none;
+}
+
+
+
+
