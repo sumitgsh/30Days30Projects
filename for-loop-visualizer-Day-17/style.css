@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    font-family: 'Muli';
+    
+}
+
+.case
+{
+
+    animation: slidein 2s ease-in ;
+}
+table td{
+    padding:.25rem!important;
+}
+
+@keyframes slidein{
+
+    0%
+    {
+        background-color: grey;
+    }
+    50%{
+        background-color: red;
+    }
+}
+
