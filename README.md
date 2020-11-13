@@ -33,3 +33,9 @@
 ### Day 16:Contact-Page-Design
 
 ### Day 17:For-loop-visualiser
+
+### Day 18:css-pulse-effect
+
+### Day 19:Infinite-scroll
+
+### Day 20:Sentiment-analysis-Using-Python
