@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Muli';
+    
+}
+
+.container
+{
+height: 80vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+.out_circle
+{
+ 
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(158,158,158);
+    animation: pulse-red 2s infinite;
+    
+}
+
+@keyframes pulse-red {
+	0% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+	}
+	
+	100% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+	}
+}
+
+
+
+
+
+
+
+/* .inn_circle
+{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    position: absolute;
+    top: 15px;
+    left:15px;
+    border-radius: 50%;
+}
+
+ */
