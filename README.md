@@ -39,3 +39,5 @@
 ### Day 19:Infinite-scroll
 
 ### Day 20:Sentiment-analysis-Using-Python
+
+### Day 21:Light-Dark-Mode-Toggler
