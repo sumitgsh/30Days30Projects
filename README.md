@@ -43,3 +43,7 @@
 ### Day 21:Light-Dark-Mode-Toggler
 
 ### Day 22:Mickey-eye-roll
+
+### Day 23:Image-slider
+
+### Day 24:Calculator
