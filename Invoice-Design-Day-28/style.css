@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(219,213,203)!important;
+}
+
+.container
+{
+    padding: 5% 20%;
+    font-size: 1.2rem;
+}
+.inv_container
+{
+background-color: #ffffff;
+padding: 1.2rem 2.6rem ;
+border: solid 1px linear-gradient(to right ,red,grey);
+box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+
+.rowData{
+    border-bottom: 2px solid grey;
+}
