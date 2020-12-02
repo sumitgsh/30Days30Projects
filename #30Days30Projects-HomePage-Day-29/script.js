@@ -1,0 +1,32 @@
+
+
+const project=[
+   'Flyo Landing Page from Front-end Mentor',
+    'faq-accordion-card-main',
+    'Word Frequency Count',
+    'Notes-App',
+    'To-do-list',
+    'Pepper-Content-Website-ui-clone',
+    'Meme-Creator app',
+    'Border-Radius-Previewer',
+    'Pig-Game',
+    'Ip address Tracker',
+    'Card-Design',
+    'event-Key-Code',
+    'Event-Registration-app',
+    'Rain-Drops-Effect',
+    'Password-Strength_Checker',
+    'Contact-Page-Design',
+    'For-loop-visualiser',
+    'css-pulse-effect',
+    'Infinite-scroll',
+    'Sentiment-analysis-Using-Python',
+    'Light-Dark-Mode-Toggler',
+    'Mickey-eye-roll',
+    'Image-slider',
+    'Calculator',
+    'Incrementing-counter',
+    'Video-Call-App-webRtc',
+    'oogle-Chrome-Extension',
+    'Invoice Design'
+    ]
