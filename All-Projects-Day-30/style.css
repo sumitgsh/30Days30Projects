@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+*
+{
+    box-sizing:content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    font-family: 'Roboto Mono',monospace!important;
+}
+
+.header
+{
+    background-color: rgba(8,37,64,0.6);
+    margin-top: 0.3rem;
+    border-radius:8px;
+}
+img{
+    min-width: 100%;
+    max-height: 300px;
+}
+
+.card_extra
+{
+    border-radius: 16px;
+    border: solid 20px rgba(69,78,114,0.3)!important;
+}
+.card_extra:hover{
+    background-color: rgba(158,158,158,0.8);
+}
+
+#footer
+{
+    background-color:rgb(140,82,255);
+    padding: 1rem;
+}
+
+.proj-link
+{
+    padding: 0.6rem!important;
+}
+
+@media(max-width:500px)
+{
+    .header{
+    font-size: 18px!important;
+    }
+}

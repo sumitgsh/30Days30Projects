@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+*
+{
+    box-sizing:content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    font-family: 'Roboto Mono',monospace!important;
+}
+
+.section1
+{
+    background-image: url("./images/background-1.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+    padding: 120px 0;
+	position: relative;
+
+}
+
+.section1 .title
+{
+    color: white;
+    z-index: 1;
+    position: relative;
+    font-size: 1.8rem;
+}
+
+.section2,.section3,.section4
+{
+    color: none;
+    margin: 16px;
+}
+
+.rules_list
+{
+    padding: 0px 3rem;
+}
+.projects
+{
+    padding: 0px 3rem;
+}
+.cont_section
+{
+    padding: 0px 3rem;
+}
+
+#day_proj
+{
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: red;
+}
+a{
+    list-style: none;
+}
